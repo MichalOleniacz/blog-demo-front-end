@@ -1,0 +1,74 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--backgroundColor);
+}
+
+.title {
+  font-family: "Hind Siliguri", sans-serif;
+
+  font-size: 28px;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.grid {
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 50px;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+}
+
+.postWrapper {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.postTitle {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  text-decoration: underline;
+}
+
+.postDesc {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.postFooter {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.postDate {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.postReadMore {
+  padding: 10px;
+  text-align: center;
+}
